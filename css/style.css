@@ -1,0 +1,14 @@
+body, html{
+  margin: 0 auto;
+}
+
+#messege-input{
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#chat-screen{
+  display: none;
+}
