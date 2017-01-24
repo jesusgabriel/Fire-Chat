@@ -1,0 +1,34 @@
+#chat-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 300px;
+  margin-left: 450px;
+  background-color: #01a0fe;
+  border-radius: 2rem;
+
+}
+li{
+  background-color: white;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  padding: 1rem;
+  list-style-type: none;
+  overflow: visible;
+
+}
+
+.background-messege{
+  padding: 20px;
+  margin-top: 20px;
+  overflow: scroll;
+}
+  
+
+
+#messege-input {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}

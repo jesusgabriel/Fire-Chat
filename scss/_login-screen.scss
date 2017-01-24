@@ -1,0 +1,33 @@
+img {
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.first-page img {
+    width: 40%;
+}
+
+.login-screen  {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    margin-left: 450px;
+    background-color: #01a0fe;
+    border-radius: 2rem;
+}
+.first-page {
+    flex: 2;
+}
+.second-page .btn {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.second-page {
+    flex: 1;
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    justify-content: center;
+}
