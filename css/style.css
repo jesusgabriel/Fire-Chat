@@ -878,10 +878,12 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 300px;
-  margin-left: 450px;
+  width: 290px;
+  justify-content: center;
   background-color: #01a0fe;
-  border-radius: 2rem; }
+  overflow: auto;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 3px; }
 
 li {
   background-color: white;
@@ -889,27 +891,40 @@ li {
   border-radius: 3px;
   padding: 1rem;
   list-style-type: none;
-  overflow: visible; }
+  overflow: visible;
+  word-wrap: break-word; }
 
 .background-messege {
   padding: 20px;
   margin-top: 20px;
-  overflow: scroll; }
+  overflow: scroll;
+  height: 400px;
+  overflow-x: hidden; }
 
 #messege-input {
   position: fixed;
   bottom: 1rem;
   left: 50%;
-  transform: translateX(-50%); }
+  transform: translateX(-50%);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 3px; }
 
 h1 {
-  margin-top: 40px;
-  text-align: center;
+  font-size: 60px;
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: left;
+  position: absolute;
   color: lightgray; }
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray; }
 
 img {
   margin-left: 90px;
-  margin-top: 40px; }
+  margin-top: 120px; }
 
 .first-page img {
   width: 40%; }
@@ -917,11 +932,13 @@ img {
 .login-screen {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 100vh;
   width: 300px;
-  margin-left: 450px;
-  background-color: #01a0fe;
-  border-radius: 2rem; }
+  background: blue;
+  background: linear-gradient(#0082d3, lightblue);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px; }
 
 .first-page {
   flex: 2; }
@@ -929,14 +946,16 @@ img {
 .second-page .btn {
   margin-bottom: 10px;
   display: flex;
-  align-items: center;
-  flex-direction: row; }
+  justify-content: center;
+  flex-direction: column; }
+
+.btn-facebook {
+  width: 100%; }
+
+#chat-screen {
+  display: none; }
 
 .second-page {
-  flex: 1;
-  display: flex;
-  background-color: gray;
-  flex-direction: column;
-  justify-content: center; }
+  flex: 1; }
 
 /*# sourceMappingURL=style.css.map */

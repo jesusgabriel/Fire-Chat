@@ -1,6 +1,6 @@
 img {
     margin-left: 90px;
-    margin-top: 40px;
+    margin-top: 120px;
 }
 .first-page img {
     width: 40%;
@@ -9,25 +9,37 @@ img {
 .login-screen  {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 100vh;
     width: 300px;
-    margin-left: 450px;
-    background-color: #01a0fe;
-    border-radius: 2rem;
+    background: blue;
+    background: linear-gradient(#0082d3, lightblue);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
 }
+
 .first-page {
     flex: 2;
 }
 .second-page .btn {
     margin-bottom: 10px;
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
 }
+.btn-facebook{
+  width: 100%;
+}
+#chat-screen {
+  display: none;
+}
+
 .second-page {
     flex: 1;
-    display: flex;
-    background-color: gray;
-    flex-direction: column;
-    justify-content: center;
+    // display: flex;
+    // background: blue;
+    // background: linear-gradient(0deg, #0082d3, lightblue);
+    // flex-direction: column;
+    // justify-content: center;
 }

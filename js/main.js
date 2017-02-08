@@ -34,7 +34,10 @@ $(".btn-facebook").click(function() {
               $("#messages").append(`
           <li><strong>${msg.user}</strong>: ${msg.messege}</li>
           `);
+
           }
+          $(".background-messege")[0].scrollTop = $(".background-messege")[0].scrollHeight;
+
       });
       document.addEventListener("keydown", function(e) {
           if (e.keyCode === 13){
